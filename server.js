@@ -7,6 +7,7 @@ var hbs=require('hbs')
 var express=require('express')
 var app=express()
 
+var port=process.env.PORT || 3000
 //Directory Path
 var publicDirectoryPath=path.join(__dirname,'./public')
 var viewsPath=path.join(__dirname,'./templates/views')
@@ -63,6 +64,6 @@ app.get('*',(req,res)=>{
 
 
 //Local hosting
-app.listen(3000,()=>{
-    console.log('Server is running on Port 3000')
+app.listen(port,()=>{
+    console.log('Server is running on Port '+port)
 });
