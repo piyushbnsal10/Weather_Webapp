@@ -1,0 +1,42 @@
+
+body{
+    color:#333333;
+    font-family: arial;
+    /* max-width: 700px; */
+    margin: 0 auto;
+    padding:0 16px;
+    display:column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+footer{
+    color:#888888;
+    border-top: 1px solid #eeeeee;
+    padding: 16px 0 ;
+    margin-top:16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size:64px;
+    margin-bottom: 48px; 
+}
+
+.potrait{
+    width:250px
+}
+
+/* .container-fluid{
+    flex-grow: 1;
+} */
+img{
+    width:250px;
+}
+
+#messageOne,#messageTwo{
+    font-size:24px
+}
